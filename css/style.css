@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	/* 10px = 1rem / 2,5rem = 25px*/
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	background-color: #fff;
+}
+/* atribute id - nav*/
+[id] {
+	scroll-margin-top: 91px;
+}
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 83px;
+	}
+}
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+}
+.orange-color {
+	color: rgb(255, 102, 0);
+}
+/* Navigation */
+.navbar-brand {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+.nav-link,
+.navbar-toggler-icon {
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.navbar-toggler {
+	padding: 1em 2em;
+}
+/* section first */
+.home {
+	position: relative;
+	height: 60rem;
+	background-image: url(/img/city-big.jpg);
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+.home .btn {
+    padding: 1em 2em;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.home .welcome-text {
+    font-size: 2.2rem;
+}
+.accordion-button:not(.collapsed) {
+	background-color: rgb(220, 220, 220);
+	color: #212529
+}
+/* section - about us */
+.aboutus-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.aboutus-icon {
+	font-size: 4rem;
+}
+.accordion-button {
+	padding: 1em;
+	font-size: 1.8rem;
+}
+/* section - team */
+.team {
+	background-color: rgb(216, 214, 214);
+}
+.team .card-img-top {
+	height: 300px;
+	object-fit: cover;
+}
+.team .card-title {
+	font-size: 2rem;
+}
+/* section - contact */
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contact .submit-btn {
+	font-size: 1.6rem;
+}
